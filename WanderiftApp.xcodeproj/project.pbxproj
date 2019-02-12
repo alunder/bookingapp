@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80CA5E199B5759A9F9CA2CDE /* Pods_WanderiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A8489BCA41EB2C303A8EE6 /* Pods_WanderiftApp.framework */; };
+		822BB7662198AAF4005C7653 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822BB7652198AAF4005C7653 /* HomeViewController.swift */; };
+		822BB76A2198ABC1005C7653 /* BookingRequestSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822BB7692198ABC1005C7653 /* BookingRequestSentViewController.swift */; };
+		822BB77C2198B3AD005C7653 /* BookTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822BB77B2198B3AD005C7653 /* BookTripViewController.swift */; };
 		8249A326218E4BB80049C83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8249A325218E4BB80049C83B /* AppDelegate.swift */; };
-		8249A328218E4BB80049C83B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8249A327218E4BB80049C83B /* ViewController.swift */; };
-		8249A32B218E4BB80049C83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8249A329218E4BB80049C83B /* Main.storyboard */; };
-		8249A32D218E4BB90049C83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8249A32C218E4BB90049C83B /* Assets.xcassets */; };
-		8249A330218E4BB90049C83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8249A32E218E4BB90049C83B /* LaunchScreen.storyboard */; };
+		8249A338218E4BF60049C83B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8249A337218E4BF60049C83B /* GoogleService-Info.plist */; };
+		8249A33C218E50770049C83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8249A33B218E50770049C83B /* Main.storyboard */; };
+		8249A33E218E507D0049C83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8249A33D218E507D0049C83B /* LaunchScreen.storyboard */; };
+		8249A34C218E516F0049C83B /* SubmitBookingRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8249A34B218E516F0049C83B /* SubmitBookingRequestViewController.swift */; };
+		8249A36A218E52880049C83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8249A369218E52880049C83B /* Assets.xcassets */; };
+		82E458672199479300132F7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E458662199479300132F7C /* LoginViewController.swift */; };
+		82E4586B219A180200132F7C /* SubscriptionInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4586A219A180200132F7C /* SubscriptionInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		546D66627BC06E0EAD857BBF /* Pods-WanderiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderiftApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WanderiftApp/Pods-WanderiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		822BB7652198AAF4005C7653 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		822BB7692198ABC1005C7653 /* BookingRequestSentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingRequestSentViewController.swift; sourceTree = "<group>"; };
+		822BB77B2198B3AD005C7653 /* BookTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTripViewController.swift; sourceTree = "<group>"; };
 		8249A322218E4BB80049C83B /* WanderiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanderiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8249A325218E4BB80049C83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8249A327218E4BB80049C83B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8249A32A218E4BB80049C83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8249A32C218E4BB90049C83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8249A32F218E4BB90049C83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8249A331218E4BB90049C83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8249A337218E4BF60049C83B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8249A33B218E50770049C83B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8249A33D218E507D0049C83B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8249A34B218E516F0049C83B /* SubmitBookingRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitBookingRequestViewController.swift; sourceTree = "<group>"; };
+		8249A369218E52880049C83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E458662199479300132F7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		82E4586A219A180200132F7C /* SubscriptionInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionInformationViewController.swift; sourceTree = "<group>"; };
+		A6ECA67694400EB1980E5918 /* Pods-WanderiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderiftApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WanderiftApp/Pods-WanderiftApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A8489BCA41EB2C303A8EE6 /* Pods_WanderiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanderiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CA5E199B5759A9F9CA2CDE /* Pods_WanderiftApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08223DAE7C25F311EE4D9F35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6ECA67694400EB1980E5918 /* Pods-WanderiftApp.debug.xcconfig */,
+				546D66627BC06E0EAD857BBF /* Pods-WanderiftApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8249A319218E4BB80049C83B = {
 			isa = PBXGroup;
 			children = (
+				8249A3802192A0F50049C83B /* Booking */,
 				8249A324218E4BB80049C83B /* WanderiftApp */,
 				8249A323218E4BB80049C83B /* Products */,
+				08223DAE7C25F311EE4D9F35 /* Pods */,
+				D18600EEE680A6509FF3389F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +84,34 @@
 			isa = PBXGroup;
 			children = (
 				8249A325218E4BB80049C83B /* AppDelegate.swift */,
-				8249A327218E4BB80049C83B /* ViewController.swift */,
-				8249A329218E4BB80049C83B /* Main.storyboard */,
-				8249A32C218E4BB90049C83B /* Assets.xcassets */,
-				8249A32E218E4BB90049C83B /* LaunchScreen.storyboard */,
+				822BB7652198AAF4005C7653 /* HomeViewController.swift */,
+				82E458662199479300132F7C /* LoginViewController.swift */,
+				82E4586A219A180200132F7C /* SubscriptionInformationViewController.swift */,
+				8249A369218E52880049C83B /* Assets.xcassets */,
+				8249A33B218E50770049C83B /* Main.storyboard */,
+				8249A33D218E507D0049C83B /* LaunchScreen.storyboard */,
 				8249A331218E4BB90049C83B /* Info.plist */,
+				8249A337218E4BF60049C83B /* GoogleService-Info.plist */,
 			);
 			path = WanderiftApp;
+			sourceTree = "<group>";
+		};
+		8249A3802192A0F50049C83B /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				8249A34B218E516F0049C83B /* SubmitBookingRequestViewController.swift */,
+				822BB7692198ABC1005C7653 /* BookingRequestSentViewController.swift */,
+				822BB77B2198B3AD005C7653 /* BookTripViewController.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		D18600EEE680A6509FF3389F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8489BCA41EB2C303A8EE6 /* Pods_WanderiftApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8249A334218E4BB90049C83B /* Build configuration list for PBXNativeTarget "WanderiftApp" */;
 			buildPhases = (
+				4729BAA2F983A732A77DF562 /* [CP] Check Pods Manifest.lock */,
 				8249A31E218E4BB80049C83B /* Sources */,
 				8249A31F218E4BB80049C83B /* Frameworks */,
 				8249A320218E4BB80049C83B /* Resources */,
+				FE5490CA25E4EC1A666BA55E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +174,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8249A330218E4BB90049C83B /* LaunchScreen.storyboard in Resources */,
-				8249A32D218E4BB90049C83B /* Assets.xcassets in Resources */,
-				8249A32B218E4BB80049C83B /* Main.storyboard in Resources */,
+				8249A33C218E50770049C83B /* Main.storyboard in Resources */,
+				8249A33E218E507D0049C83B /* LaunchScreen.storyboard in Resources */,
+				8249A338218E4BF60049C83B /* GoogleService-Info.plist in Resources */,
+				8249A36A218E52880049C83B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4729BAA2F983A732A77DF562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanderiftApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5490CA25E4EC1A666BA55E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WanderiftApp/Pods-WanderiftApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WanderiftApp/Pods-WanderiftApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8249A31E218E4BB80049C83B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8249A328218E4BB80049C83B /* ViewController.swift in Sources */,
+				82E4586B219A180200132F7C /* SubscriptionInformationViewController.swift in Sources */,
+				822BB76A2198ABC1005C7653 /* BookingRequestSentViewController.swift in Sources */,
+				8249A34C218E516F0049C83B /* SubmitBookingRequestViewController.swift in Sources */,
+				82E458672199479300132F7C /* LoginViewController.swift in Sources */,
 				8249A326218E4BB80049C83B /* AppDelegate.swift in Sources */,
+				822BB77C2198B3AD005C7653 /* BookTripViewController.swift in Sources */,
+				822BB7662198AAF4005C7653 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8249A329218E4BB80049C83B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8249A32A218E4BB80049C83B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8249A32E218E4BB90049C83B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8249A32F218E4BB90049C83B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8249A332218E4BB90049C83B /* Debug */ = {
@@ -280,37 +374,41 @@
 		};
 		8249A335218E4BB90049C83B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6ECA67694400EB1980E5918 /* Pods-WanderiftApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3BGN6M27M;
 				INFOPLIST_FILE = WanderiftApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wanderift.WanderiftApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanderift.wanderiftapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8249A336218E4BB90049C83B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546D66627BC06E0EAD857BBF /* Pods-WanderiftApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3BGN6M27M;
 				INFOPLIST_FILE = WanderiftApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wanderift.WanderiftApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanderift.wanderiftapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
